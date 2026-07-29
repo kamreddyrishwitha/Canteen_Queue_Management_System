@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Canteen Queue Management System</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        body{
+            background:#ffffff;
+            color:#333;
+        }
+        .header{
+            background:#2f4358;
+            padding:25px 0;
+            text-align:center;
+        }
+        .header h1{
+            margin:0;
+            color:white;
+            font-size:58px;
+            font-family:Georgia, "Times New Roman", serif;
+            font-weight:bold;
+            line-height:1.1;
+        }
+        .container{
+            width:80%;
+            max-width:900px;
+            margin:30px auto;
+            background:#ffffff;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 15px rgba(22,160,133,0.4);
+        }
+        h2{
+            color:#2c3e50;
+            font-size:30px;
+            margin-bottom:15px;
+            font-family:Verdana, Geneva, sans-serif;
+        }
+        h3{
+            color:#1abc9c;
+            font-size:24px;
+            margin-top:25px;
+            margin-bottom:12px;
+            font-family:"Trebuchet MS", Helvetica, sans-serif;
+        }
+        .highlight{
+            font-family:'Caveat', cursive;
+            font-size:42px;
+            color:#16a085;
+            text-align:center;
+            margin:15px 0 25px;
+            font-weight:700;
+        }
+        p{
+            font-size:17px;
+            line-height:1.7;
+            margin-bottom:15px;
+            color:#555;
+        }
+        ul{
+            margin-left:30px;
+            margin-bottom:20px;
+        }
+        ul li{
+            padding:8px;
+            font-size:17px;
+            color:#333;
+        }
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin-top:15px;
+        }
+        table th{
+            background:#16a085;
+            color:white;
+            padding:12px;
+            font-size:17px;
+        }
+        table td{
+            border:1px solid #ccc;
+            padding:12px;
+            text-align:center;
+            font-size:16px;
+            color:#333;
+        }
+        table tr:nth-child(even){
+            background:#f5f5f5;
+        }
+        table tr:nth-child(odd){
+            background:#ffffff;
+        }
+        .btn{
+            text-align:center;
+            margin-top:30px;
+        }
+        button{
+            background:#16a085;
+            color:white;
+            border:none;
+            padding:12px 35px;
+            font-size:17px;
+            border-radius:6px;
+            cursor:pointer;
+            transition:0.3s;
+        }
+        button:hover{
+            background:#1abc9c;
+            transform:scale(1.05);
+        }
+        footer{
+            background:#2f4358;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+            font-size:15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🍽 Canteen Queue Management System</h1>
+    </div>
+    <div class="container">
+        <h2>👋 Welcome!</h2>
+        <p class="highlight">Skip the Queue, Not Your Meal.</p>
+        <p>
+            This system helps students book a token online and wait comfortably
+            instead of standing in long queues at the college canteen.
+        </p>
+        <h3>🍴 Our Services</h3>
+        <ul>
+            <li>🎟️ Take Token</li>
+            <li>📋 View Live Queue</li>
+            <li>⏱️ Check Waiting Time</li>
+            <li>🍔 View Canteen Menu</li>
+        </ul>
+        <h3>📊 Current Queue Status</h3>
+        <table>
+            <tr>
+                <th>Now Serving</th>
+                <th>Waiting Students</th>
+                <th>Estimated Time</th>
+            </tr>
+            <tr>
+                <td>A-105</td>
+                <td>24</td>
+                <td>18 Minutes</td>
+            </tr>
+        </table>
+        <div class="btn">
+            <a href="login.html">
+                <button>🔑 Login</button>
+            </a>
+        </div>
+    </div>
+    <footer>
+        © 2026 Canteen Queue Management System
+    </footer>
+</body>
+</html>
